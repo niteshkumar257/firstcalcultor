@@ -1,0 +1,37 @@
+.heading{
+    text-align: center;
+}
+.container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+.child{
+    display: flex;
+    margin: auto;
+
+}
+button{
+    border: 4px solid black;
+    border-radius: 7px;
+    background-color: chartreuse;
+    margin:0 5px ;
+    width: 65px;
+    height: 30px;
+}
+.enter{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
